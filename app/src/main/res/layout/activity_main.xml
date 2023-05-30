@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hoşgeldiniz_text"
+        android:padding="8dp"
+        android:id="@+id/Hoşgeldiniz_text"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_ogun_sec"
+        android:layout_below="@+id/Hoşgeldiniz_text"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:textColor="#555555"
+        android:text="@string/ogun"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_ogun_sec"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_ogun_sec"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_yemek_sec"
+        android:layout_below="@+id/spinner_ogun_sec"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:textColor="#555555"
+        android:text="@string/yemek"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_yemek_sec"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/textView_yemek_sec"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_submit"
+        android:layout_below="@id/spinner_yemek_sec"
+        android:layout_marginTop="50dp"
+        android:text="@string/sec"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"/>
+
+
+</RelativeLayout>

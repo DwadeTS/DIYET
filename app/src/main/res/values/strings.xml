@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DİYET BÖLÜMÜ</string>
+    <string name="Hoşgeldiniz_text">HOŞGELDİNİZ</string>
+    <string name="ogun">Öğün</string>
+    <string name="sec">Seçiniz</string>
+    <string name="yemek">Yemekler</string>
+
+    <string-array name="array_ogun_sec">
+    <item>Öğününüzü Seçiniz</item>
+    <item>Kahvaltı</item>
+    <item>Öğle Yemeği</item>
+    <item>Akşam Yemeği</item>
+    </string-array>
+    
+    
+    <string-array name="array_default_yemek">
+        <item>Yemek İstediğinizi Seçiniz</item>
+    </string-array>
+   
+    <string-array name="array_kahvaltı_yemek">
+        <item>Yemek İstediğinizi Seçiniz</item>
+        <item>Yulaf</item>
+        <item>Serpme Kahvaltı</item>
+    </string-array>
+    <string-array name="array_ogle_yemek">
+        <item>Yemek İstediğinizi Seçiniz</item>
+        <item>İskender</item>
+        <item>Tavuk Pilav</item>
+    </string-array>   
+    
+    <string-array name="array_aksam_yemek">
+        <item>Yemek İstediğinizi Seçiniz</item>
+        <item>Yeşil Fasulye</item>
+        <item>Kuru Fasulye</item>
+
+    </string-array>
+
+
+</resources>
